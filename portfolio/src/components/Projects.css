@@ -1,6 +1,7 @@
 /* Projects.css */
 .projects {
     padding: 4rem 0;
+    background-color: #f4f4f4;
   }
   
   .project-list {
@@ -10,12 +11,19 @@
   }
   
   .project {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 2rem;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+  }
+
+  .projects h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
   }
   
   .project:hover {

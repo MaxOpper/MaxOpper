@@ -8,6 +8,7 @@
   margin-bottom: 1.5rem;
   font-size: 2.5rem;
   color: #333;
+  text-align: center;
 }
 
 .about-text {
@@ -15,4 +16,5 @@
   margin: 3rem;
   font-weight: 500;
   line-height: 1.5;
+  max-width: 800px;
 }

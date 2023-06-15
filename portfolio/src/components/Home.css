@@ -1,0 +1,61 @@
+/* Home.css */
+.home {
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Updated flex-direction to column */
+  }
+  
+  .section-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #333;
+    z-index: 1;
+  }
+  
+  .content {
+    position: relative;
+  }
+  
+  .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 20px; /* Adjust the border-radius value as desired */
+  overflow: hidden; /* Ensure content stays within rounded edges */
+}
+
+  
+  .social-links a {
+    display: flex; /* Updated display to flex */
+    align-items: center;
+    margin: 0.5rem;
+    
+  }
+  
+  .social-links img {
+    max-width: 80px;
+    height: auto;
+    flex: 1; /* Added flex property */
+    object-fit: contain; /* Added object-fit property */
+    
+  }
+  .profile img {
+    width: 15%;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  

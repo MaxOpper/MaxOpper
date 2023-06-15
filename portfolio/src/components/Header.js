@@ -2,7 +2,11 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ setActiveSection }) => {
+  const handleSectionClick = (section) => {
+    setActiveSection(section);
+  };
+
   return (
     <header className="header">
       <div className="branding">
@@ -10,13 +14,19 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button onClick={() => handleSectionClick('home')}>Home</button>
+          </li>
+          <li>
+            <button onClick={() => handleSectionClick('about')}>Resume</button>
+          </li>
+          <li>
+            <button onClick={() => handleSectionClick('projects')}>Projects</button>
+          </li>
         </ul>
       </nav>
     </header>
   );
-}
+};
 
 export default Header;
