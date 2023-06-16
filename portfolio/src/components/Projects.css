@@ -13,11 +13,13 @@
 .project {
   background-color: #ffffff;
   padding: 2rem;
+  margin: 5px;
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   width: 40%;
+  border-radius: 20px;
   /* Adjust width as needed for smaller screens */
 }
 
@@ -60,3 +62,20 @@
 .header-button:hover {
   color: #ff6699;
 }
+
+.read-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 1rem;
+}
+
+.read-button:hover {
+  color: #ff6699;
+}
+
