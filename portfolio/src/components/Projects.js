@@ -9,11 +9,11 @@ const Projects = () => {
       <div className="container">
         <div className="project-list">
           <div className="project">
-            <h3>Project 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>OpperStats</h3>
+            <p>OpperStats (Open-source Player Projection Estimation Report and Statistics System)</p>
           </div>
           <div className="project">
-            <h3>Project 2</h3>
+            <h3>TrumanChat</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
