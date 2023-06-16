@@ -1,0 +1,62 @@
+.projects {
+  padding: 4rem 0;
+  background-color: #f4f4f4;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap; /* Add this line to enable wrapping */
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.project {
+  background-color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 40%;
+  /* Adjust width as needed for smaller screens */
+}
+
+.projects h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .project {
+    width: 100%; /* Set width to 100% for smaller screens */
+  }
+}
+
+.header-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 2rem;
+}
+
+.header-button:hover {
+  color: #ff6699;
+}
