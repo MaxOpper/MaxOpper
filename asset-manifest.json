@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MaxOpper/static/css/main.947ce3b7.css",
-    "main.js": "/MaxOpper/static/js/main.73b51e90.js",
+    "main.css": "/MaxOpper/static/css/main.271a0e29.css",
+    "main.js": "/MaxOpper/static/js/main.19e97e87.js",
     "static/js/787.1ed0c42c.chunk.js": "/MaxOpper/static/js/787.1ed0c42c.chunk.js",
     "static/media/instagram.png": "/MaxOpper/static/media/instagram.b04a414745cff566c72f.png",
     "static/media/R.png": "/MaxOpper/static/media/R.16e8eaa6f7ed06e31a94.png",
@@ -15,18 +15,17 @@
     "static/media/aws.png": "/MaxOpper/static/media/aws.164386d06e0e040c09d7.png",
     "static/media/lin.png": "/MaxOpper/static/media/lin.7a4865ed0dac01db0f53.png",
     "static/media/rmd.png": "/MaxOpper/static/media/rmd.ecd3655c7878bd192c7d.png",
-    "static/media/bp.png": "/MaxOpper/static/media/bp.bd7c375c5712e171bcb1.png",
     "static/media/flask.png": "/MaxOpper/static/media/flask.1bcff0d542f7fc985cb4.png",
     "static/media/JS.png": "/MaxOpper/static/media/JS.062825dbceed44567e91.png",
     "static/media/github.png": "/MaxOpper/static/media/github.7c8f7736007664c4b0ba.png",
     "static/media/cpp.png": "/MaxOpper/static/media/cpp.d7a72328ffe7d955a33e.png",
     "index.html": "/MaxOpper/index.html",
-    "main.947ce3b7.css.map": "/MaxOpper/static/css/main.947ce3b7.css.map",
-    "main.73b51e90.js.map": "/MaxOpper/static/js/main.73b51e90.js.map",
+    "main.271a0e29.css.map": "/MaxOpper/static/css/main.271a0e29.css.map",
+    "main.19e97e87.js.map": "/MaxOpper/static/js/main.19e97e87.js.map",
     "787.1ed0c42c.chunk.js.map": "/MaxOpper/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.947ce3b7.css",
-    "static/js/main.73b51e90.js"
+    "static/css/main.271a0e29.css",
+    "static/js/main.19e97e87.js"
   ]
 }
