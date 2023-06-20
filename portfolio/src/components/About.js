@@ -122,32 +122,56 @@ const About = () => {
 
 
 </body>
-<div class="rowExp">
-  <div class="columnExp">
+
+<h2>Experience</h2>
+<div class = "rowExp">
+    <div class = "columnExp">
+      <div class="container">
+        <div class="education-item">
+          <div class="expDetails">
+            <h3>Baskin-Robbins, Shift Manager</h3>
+            <h4>Des Peres, MO, November 2019 - June 2022</h4>
+            <ul class="expInfo">
+            <li>Led crew members and directed all daily operations in the absence of the General Manager, including supervising and training employees, and opening/closing the store.</li>
+        <li>Excelled in performing all Crew Member tasks, such as being a frontline server and cashier, while ensuring compliance with the preventative maintenance program.</li>
+        <li>Implemented effective training programs to enhance employee performance, resulting in improved service quality and customer satisfaction.</li>
+        <li>Maintained a clean and organized work environment, consistently meeting health and safety standards, and passing regular inspections.</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class = "columnExp">
+  <div class="container">
+        <div class="education-item">
+          <div class="expDetails">
+            <h3>Mizzou Club Esports, Overwatch Head Coach</h3>
+            <h4>University of Missouri, Sept. 2020 - Dec. 2021</h4>
+            <ul class="expInfo">
+            <li>Organized and managed team practices, scrimmages, and competitions to enhance player skills and teamwork.</li>
+            <li>Facilitated in-person team bonding activities to foster a cohesive and supportive team environment.</li>
+            <li>Conducted video review sessions (VOD review) to analyze team strategies, individual player performances, and identify areas for improvement.</li>
+            <li>Participated in the National Association of Collegiate Esports (NACE) events and tournaments, representing the club and promoting competitive esports.</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
     <h2>Education</h2>
     <div class="container">
       <div class="education-item">
         <div class="school-info">
-          <p>Truman State University, Kirksville, MO</p>
+          <h3>Truman State University, Kirksville, MO</h3>
           <p>B.S. Computer Science with Minor in Statistics</p>
           <p>Expected Graduation: 2023</p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="columnExp">
-    <h2>Experience</h2>
-    <div class="container">
-      <div class="education-item">
-        <div class="school-info">
-          <p>Sample text</p>
-          <p>Sample text</p>
-          <p>Sample text</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
     </section>
   );

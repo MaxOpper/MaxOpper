@@ -70,6 +70,33 @@
   display: flex;
   flex-wrap: wrap;
 }
+.expDetails {
+  margin-bottom: 1rem;
+}
+
+.expDetails h3 {
+  margin-bottom: 0.5rem;
+}
+
+.expDetails h4 {
+  margin-bottom: 1rem;
+}
+
+.expInfo {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.expInfo li {
+  margin-bottom: 0.5rem;
+}
+
+.expInfo {
+  text-align: left;
+}
+.expInfo li {
+  margin-bottom: 1rem;
+}
 
 
 
