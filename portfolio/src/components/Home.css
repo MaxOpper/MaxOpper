@@ -41,13 +41,9 @@
   margin-top: 1rem;
   background-color: #f4f4f4;
   border-radius: 20px; /* Adjust the border-radius value as desired */
-  transition: transform 0.3s ease;
+
   overflow: hidden; /* Ensure content stays within rounded edges */
 }
-
-  .social-links:hover {
-    transform: translateY(-10px);
-  }
 
   
   .social-links a {
