@@ -34,14 +34,20 @@
   }
   
   .social-links {
+  width:auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
   background-color: #f4f4f4;
   border-radius: 20px; /* Adjust the border-radius value as desired */
+  transition: transform 0.3s ease;
   overflow: hidden; /* Ensure content stays within rounded edges */
 }
+
+  .social-links:hover {
+    transform: translateY(-10px);
+  }
 
   
   .social-links a {
@@ -65,4 +71,8 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
-  
+  @media screen and (max-width: 600px) {
+    .social-links img {
+      max-width: 70px;
+    }
+  }

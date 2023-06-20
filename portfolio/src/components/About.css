@@ -4,6 +4,40 @@
   background-color: #f4f4f4;
 }
 
+.boxes {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+  height: 85%;
+  margin-bottom: 1rem;
+}
+
+.boxes1 {
+  
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+  width: 90%;
+  height: 70%; /* Add this line to make all containers the same height */
+  box-sizing: border-box; /* Add this line to include padding in width calculation */
+}
+.boxes1:hover {
+  transform: translateY(-10px);
+}
+
+.boxes:hover {
+  transform: translateY(-10px);
+}
+
 .about h2 {
   margin-bottom: 1.5rem;
   font-size: 2.5rem;
@@ -13,7 +47,7 @@
 
 .column {
   width: 30%;
-  margin-right: 0 2.5%;
+  margin-left: 3%;
 }
 
 .row {
@@ -21,21 +55,24 @@
   flex-wrap: wrap;
 }
 
+
+
 .language-item {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin-bottom: 1rem;
-  text-align: center;
-  margin-left:30%;
+  text-align: left;
   font-size: 1.5rem;
-  
+  height: 100%; /* Add this line to make all containers the same height */
 }
+
 
 .language-item div {
   display: flex;
   align-items: center;
+  
   margin-bottom: 0.5rem;
 }
 
@@ -47,6 +84,7 @@
 
 .language-item p {
   margin: 0;
+  
 }
 
 /* Clear floats after the columns */
@@ -98,6 +136,23 @@
   margin-bottom: 1rem;
 }
 
+.boxes2 {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+  height: 85%;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.boxes2:hover {
+  transform: translateY(-10px);
+}
 
 
 

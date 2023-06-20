@@ -25,10 +25,10 @@ const About = () => {
     <section id="about" className="about">
     <body>
 
-
     <div class="row">
   <div class="column">
     <h2>Languages</h2>
+    <div className='boxes1'>
     <div class="language-item">
       <div>
         <img src={pythonPNG} alt="Python" />
@@ -55,10 +55,13 @@ const About = () => {
         <p>CSS</p>
       </div>
     </div>
+    </div>
   </div>
 
   <div class="column">
+
     <h2>Tools</h2>
+    <div className='boxes1'>
     <div class="language-item">
       <div>
         <img src={reactPNG} alt="Python" />
@@ -85,10 +88,12 @@ const About = () => {
         <p>Excel</p>
       </div>
     </div>
+    </div>
   </div>
 
   <div class="column">
     <h2>Skills</h2>
+    <div className='boxes1'>
     <div class="language-item">
       <div>
         <img src={uiPNG} alt="Python" />
@@ -115,6 +120,7 @@ const About = () => {
         <p>Critical Thinking</p>
       </div>
     </div>
+    </div>
   </div>
 </div>
 
@@ -122,10 +128,10 @@ const About = () => {
 
 
 </body>
-
 <h2>Experience</h2>
 <div class = "rowExp">
     <div class = "columnExp">
+      <div className="boxes">
       <div class="container">
         <div class="education-item">
           <div class="expDetails">
@@ -140,8 +146,12 @@ const About = () => {
           </div>
         </div>
     </div>
+    </div>
   </div>
+
+
   <div class = "columnExp">
+  <div className= "boxes">
   <div class="container">
         <div class="education-item">
           <div class="expDetails">
@@ -156,6 +166,7 @@ const About = () => {
           </div>
         </div>
     </div>
+    </div>
   </div>
 </div>
 
@@ -163,6 +174,7 @@ const About = () => {
 
     <h2>Education</h2>
     <div class="container">
+      <div class="boxes2">
       <div class="education-item">
         <div class="school-info">
           <h3>Truman State University, Kirksville, MO</h3>
@@ -170,6 +182,7 @@ const About = () => {
           <p>Expected Graduation: 2023</p>
         </div>
       </div>
+    </div>
     </div>
 
 
