@@ -1,7 +1,7 @@
 /* Home.css */
 .home {
     padding: 4rem 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     position: relative;
   }
 
@@ -25,7 +25,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
-    color: #333;
+    color: #000000;
     z-index: 1;
   }
   
@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   border-radius: 20px; /* Adjust the border-radius value as desired */
 
   overflow: hidden; /* Ensure content stays within rounded edges */
