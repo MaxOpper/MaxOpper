@@ -12,9 +12,13 @@
 }
 
 .column {
-  float: left;
   width: 30%;
-margin-right: 1rem;
+  margin-right: 0 2.5%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .language-item {
@@ -52,8 +56,29 @@ margin-right: 1rem;
   clear: both;
 }
 
+.columnExp {
+  width: 45%;
+  margin: 0 2.5%;
+}
+
+.containerExp {
+  display: flex;
+  justify-content: center;
+}
+
+.rowExp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
 @media screen and (max-width: 600px) {
   .column {
+    width: 100%;
+  }
+  .columnExp {
     width: 100%;
   }
 }
