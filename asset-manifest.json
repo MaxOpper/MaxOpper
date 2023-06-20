@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MaxOpper/static/css/main.48b86970.css",
-    "main.js": "/MaxOpper/static/js/main.2fd04ecf.js",
+    "main.css": "/MaxOpper/static/css/main.6172748f.css",
+    "main.js": "/MaxOpper/static/js/main.337c613a.js",
     "static/js/787.1ed0c42c.chunk.js": "/MaxOpper/static/js/787.1ed0c42c.chunk.js",
     "static/media/instagram.png": "/MaxOpper/static/media/instagram.b04a414745cff566c72f.png",
     "static/media/R.png": "/MaxOpper/static/media/R.16e8eaa6f7ed06e31a94.png",
@@ -19,12 +19,12 @@
     "static/media/lin.png": "/MaxOpper/static/media/lin.bb933d6809d6410387a0.png",
     "static/media/cpp.png": "/MaxOpper/static/media/cpp.d7a72328ffe7d955a33e.png",
     "index.html": "/MaxOpper/index.html",
-    "main.48b86970.css.map": "/MaxOpper/static/css/main.48b86970.css.map",
-    "main.2fd04ecf.js.map": "/MaxOpper/static/js/main.2fd04ecf.js.map",
+    "main.6172748f.css.map": "/MaxOpper/static/css/main.6172748f.css.map",
+    "main.337c613a.js.map": "/MaxOpper/static/js/main.337c613a.js.map",
     "787.1ed0c42c.chunk.js.map": "/MaxOpper/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48b86970.css",
-    "static/js/main.2fd04ecf.js"
+    "static/css/main.6172748f.css",
+    "static/js/main.337c613a.js"
   ]
 }
