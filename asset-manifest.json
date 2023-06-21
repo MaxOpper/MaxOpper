@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/MaxOpper/static/css/main.601ed43c.css",
-    "main.js": "/MaxOpper/static/js/main.337c613a.js",
+    "main.css": "/MaxOpper/static/css/main.43b6056c.css",
+    "main.js": "/MaxOpper/static/js/main.e625e7f5.js",
     "static/js/787.1ed0c42c.chunk.js": "/MaxOpper/static/js/787.1ed0c42c.chunk.js",
     "static/media/instagram.png": "/MaxOpper/static/media/instagram.b04a414745cff566c72f.png",
     "static/media/R.png": "/MaxOpper/static/media/R.16e8eaa6f7ed06e31a94.png",
-    "static/media/profile.jpg": "/MaxOpper/static/media/profile.05abc5691a2b916adf37.jpg",
+    "static/media/profile.jpg": "/MaxOpper/static/media/profile.9dbb600db23e3fb2a31e.jpg",
     "static/media/python.png": "/MaxOpper/static/media/python.dea924d737bb84eb9ce3.png",
     "static/media/react.png": "/MaxOpper/static/media/react.49237e6a19cd2a1c1ea9.png",
     "static/media/excel.png": "/MaxOpper/static/media/excel.833dac9ab1904a20f262.png",
@@ -19,12 +19,12 @@
     "static/media/lin.png": "/MaxOpper/static/media/lin.bb933d6809d6410387a0.png",
     "static/media/cpp.png": "/MaxOpper/static/media/cpp.d7a72328ffe7d955a33e.png",
     "index.html": "/MaxOpper/index.html",
-    "main.601ed43c.css.map": "/MaxOpper/static/css/main.601ed43c.css.map",
-    "main.337c613a.js.map": "/MaxOpper/static/js/main.337c613a.js.map",
+    "main.43b6056c.css.map": "/MaxOpper/static/css/main.43b6056c.css.map",
+    "main.e625e7f5.js.map": "/MaxOpper/static/js/main.e625e7f5.js.map",
     "787.1ed0c42c.chunk.js.map": "/MaxOpper/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.601ed43c.css",
-    "static/js/main.337c613a.js"
+    "static/css/main.43b6056c.css",
+    "static/js/main.e625e7f5.js"
   ]
 }
