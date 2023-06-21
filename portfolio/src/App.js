@@ -17,7 +17,7 @@ function App() {
       {activeSection === 'home' && <Home />}
       {activeSection === 'about' && <About />}
       {activeSection === 'projects' && <Projects />}
-      <Contact />
+      <Contact setActiveSection={setActiveSection} />
       <Footer />
     </div>
   );

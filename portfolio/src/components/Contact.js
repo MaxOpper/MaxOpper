@@ -5,9 +5,27 @@ import linkedinImage from './images/lin.png';
 import githubImage from './images/github.png';
 import instagramImage from './images/instagram.png';
 import gmailImage from './images/gmail.png'
-const Contact = () => {
+const Contact = ({ setActiveSection }) => {
+  const handleSectionClick = (section) => {
+    setActiveSection(section);
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant',
+    });
+  };
   return (
     <section id="contact" className="contact">
+
+  <header className="header2">
+      <nav>
+            <button onClick={() => handleSectionClick('home')}>Home</button>
+
+            <button onClick={() => handleSectionClick('about')}>Resume</button>
+
+            <button onClick={() => handleSectionClick('projects')}>Projects</button>
+      </nav>
+    </header>
+
       <h2>Contact Me</h2>
       <div className="container">
         
