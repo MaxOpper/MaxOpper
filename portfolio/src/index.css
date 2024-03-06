@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Default light theme */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #ff6699; /* Example primary color */
+  /* Add other color variables as needed */
+}
+
+/* Dark theme */
+.dark-theme {
+  --background-color: #000000;
+  --text-color: #FAFAFA;
+  --primary-color: #9b59b6; /* Example primary color */
+  /* Add other color variables for dark theme as needed */
+}
+
+/* Pink theme */
+.pink-theme {
+  --background-color: #ffccd5;
+  --text-color: #333333;
+  --primary-color: #e91e63; /* Example primary color */
+  /* Add other color variables for pink theme as needed */
+}
+
+/* Blue theme */
+.blue-theme {
+  --background-color: #cce7ff;
+  --text-color: #333333;
+  --primary-color: #2196f3; /* Example primary color */
+  /* Add other color variables for blue theme as needed */
+}

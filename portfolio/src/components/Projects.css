@@ -5,23 +5,26 @@
 
 .project-list {
   display: flex;
-  flex-wrap: wrap; /* Add this line to enable wrapping */
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 2rem;
 }
+
 
 .project {
   background-color: #ffffff;
   padding: 2rem;
-  margin: 5px;
+  margin: auto;
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   width: 38%;
+  height: 275px;
+  max-width: 350px;
   border-radius: 20px;
-  /* Adjust width as needed for smaller screens */
 }
+
 
 .projects h2 {
   margin-bottom: 2.5rem;

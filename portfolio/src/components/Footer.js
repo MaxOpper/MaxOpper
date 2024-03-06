@@ -1,14 +1,21 @@
 // components/Footer.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Footer.css';
 
 const Footer = () => {
-  const [mode, setMode] = useState('light'); // Default mode is light
-
+  const [mode, setMode] = useState('dark');
   const handleModeChange = (newMode) => {
     setMode(newMode);
+    // Remove previous class and add new class to the body tag
+    document.body.classList.remove('light-theme', 'dark-theme', 'pink-theme', 'blue-theme');
+    document.body.classList.add(`${newMode}-theme`);
     console.log(newMode);
   };
+
+  useEffect(() => {
+    document.body.classList.add('dark-theme');
+  }, []);
+  
 
   return (
     <footer className={`footer ${mode}`}>
@@ -16,13 +23,14 @@ const Footer = () => {
         
         <div className="mode-switcher">
           <div
-            className={`mode-switcher-circle light ${mode === 'light' ? 'active' : ''}`}
-            onClick={() => handleModeChange('light')}
-          ></div>
-          <div
             className={`mode-switcher-circle dark ${mode === 'dark' ? 'active' : ''}`}
             onClick={() => handleModeChange('dark')}
           ></div>
+          <div
+            className={`mode-switcher-circle light ${mode === 'light' ? 'active' : ''}`}
+            onClick={() => handleModeChange('light')}
+          >
+          </div>
           <div
             className={`mode-switcher-circle pink ${mode === 'pink' ? 'active' : ''}`}
             onClick={() => handleModeChange('pink')}

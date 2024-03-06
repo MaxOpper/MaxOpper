@@ -70,6 +70,19 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
   
   
   @media screen and (max-width: 600px) {

@@ -179,7 +179,7 @@ const About = () => {
         <div class="school-info">
           <h3>Truman State University, Kirksville, MO</h3>
           <p>B.S. Computer Science with Minor in Statistics</p>
-          <p>Expected Graduation: 2023</p>
+          <p>August 2020 - December 2023</p>
         </div>
       </div>
     </div>
