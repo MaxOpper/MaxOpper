@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Home.css';
 import profile from './images/profile.jpg';
 import profile2 from './images/profile2.jpg';
@@ -9,26 +9,32 @@ const images = [profile, profile2, profile3, profile4, profile5];
 
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const [intervalId, setIntervalId] = useState(null);
+  // No need to store the interval ID in state, you can just use a ref
+  const intervalRef = useRef(null);
 
   const nextImage = () => {
     setCurrentImage((prevImage) => (prevImage + 1) % images.length);
   };
 
   const handleDotClick = (index) => {
-    if (intervalId) {
-      clearInterval(intervalId);
-      setIntervalId(null);
+    // Clear any existing interval
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
     }
-    clearInterval(intervalId);
+    // Set the current image and restart the interval
     setCurrentImage(index);
-    setInterval(nextImage, 6000)
+    intervalRef.current = setInterval(nextImage, 6000);
   };
 
   useEffect(() => {
-    const id = setInterval(nextImage, 6000);
-    setIntervalId(id);
-    return () => clearInterval(id);
+    // Set up the interval when the component mounts
+    intervalRef.current = setInterval(nextImage, 6000);
+    // Clear the interval when the component unmounts
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
   }, []);
 
   return (
