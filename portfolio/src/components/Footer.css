@@ -45,6 +45,10 @@
   border: 2px solid #ffffff;
 }
 
+.green.mode-switcher-circle {
+  background-color: #8fbc8f;
+  border: 2px solid #ffffff;
+}
 .mode-switcher-circle.active {
   border: 2px solid #ffffff;
 }

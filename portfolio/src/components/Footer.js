@@ -7,7 +7,7 @@ const Footer = () => {
   const handleModeChange = (newMode) => {
     setMode(newMode);
     // Remove previous class and add new class to the body tag
-    document.body.classList.remove('light-theme', 'dark-theme', 'pink-theme', 'blue-theme');
+    document.body.classList.remove('light-theme', 'dark-theme', 'pink-theme', 'blue-theme', 'green-theme');
     document.body.classList.add(`${newMode}-theme`);
     console.log(newMode);
   };
@@ -38,6 +38,10 @@ const Footer = () => {
           <div
             className={`mode-switcher-circle blue ${mode === 'blue' ? 'active' : ''}`}
             onClick={() => handleModeChange('blue')}
+          ></div>
+          <div
+            className={`mode-switcher-circle green ${mode === 'green' ? 'active' : ''}`}
+            onClick={() => handleModeChange('green')}
           ></div>
         </div>
       </div>

@@ -46,10 +46,19 @@ code {
 
 /* Blue theme */
 .blue-theme {
-  --background-color: #6c9fe0; /* Blue shade analogous to pink background */
-  --text-color: #2d2d2d; /* Keeping the text color similar for good contrast */
-  --primary-color: #aec9ff; /* Lighter blue for primary elements */
-  --body-color: #aec9ff; /* Blue shade analogous to pink body background */
-  --unselected-dot-color: #ffffff; /* White for unselected dots for contrast */
-  --selected-dot-color: #003399; /* Deeper blue for selected dots */
+  --background-color: #6c9fe0; 
+  --text-color: #2d2d2d;
+  --primary-color: #aec9ff; 
+  --body-color: #aec9ff;
+  --unselected-dot-color: #ffffff; 
+  --selected-dot-color: #003399;
+}
+
+.green-theme {
+  --background-color: #8fbc8f; /* A soft pastel green background */
+  --text-color: #2d2d2d; /* A dark gray for text that ensures good contrast and readability */
+  --primary-color: #b2d8b2; /* A lighter shade of pastel green for primary elements */
+  --body-color: #b2d8b2; /* This can be used for the overall body background if desired */
+  --unselected-dot-color: #ffffff; /* White for unselected dots */
+  --selected-dot-color: #004d33; /* A darker green for selected dots or accents */
 }
