@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body-color);
+
 }
 
 code {
@@ -16,30 +18,38 @@ code {
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
-  --primary-color: #ff6699; /* Example primary color */
-  /* Add other color variables as needed */
+  --primary-color: #797979;
+  --body-color: #afafaf;
+  --unselected-dot-color: #ffffff;
+  --selected-dot-color: #000000;
 }
 
 /* Dark theme */
 .dark-theme {
   --background-color: #000000;
   --text-color: #FAFAFA;
-  --primary-color: #9b59b6; /* Example primary color */
-  /* Add other color variables for dark theme as needed */
+  --primary-color: #9b59b6;
+  --body-color: #3b3b3b;
+  --unselected-dot-color: #ffffff;
+  --selected-dot-color: #000000;
 }
 
 /* Pink theme */
 .pink-theme {
-  --background-color: #ffccd5;
-  --text-color: #333333;
-  --primary-color: #e91e63; /* Example primary color */
-  /* Add other color variables for pink theme as needed */
+  --background-color: #e06c9f;
+  --text-color: #2d2d2d;
+  --primary-color: #ffaec9;
+  --body-color: #ffaec9;
+  --unselected-dot-color: #ffffff;
+  --selected-dot-color: #e06c9f;
 }
 
 /* Blue theme */
 .blue-theme {
-  --background-color: #cce7ff;
-  --text-color: #333333;
-  --primary-color: #2196f3; /* Example primary color */
-  /* Add other color variables for blue theme as needed */
+  --background-color: #6c9fe0; /* Blue shade analogous to pink background */
+  --text-color: #2d2d2d; /* Keeping the text color similar for good contrast */
+  --primary-color: #aec9ff; /* Lighter blue for primary elements */
+  --body-color: #aec9ff; /* Blue shade analogous to pink body background */
+  --unselected-dot-color: #ffffff; /* White for unselected dots for contrast */
+  --selected-dot-color: #003399; /* Deeper blue for selected dots */
 }

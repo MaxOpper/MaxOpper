@@ -1,4 +1,6 @@
 /* App.css */
 .App {
   text-align: center;
+  color: var(--back-color);
+  background-color: var(--back-color);
 }

@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './index.css';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');

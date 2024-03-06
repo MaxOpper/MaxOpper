@@ -20,6 +20,7 @@ const Home = () => {
       clearInterval(intervalId);
       setIntervalId(null);
     }
+    clearInterval(intervalId);
     setCurrentImage(index);
     setInterval(nextImage, 6000)
   };

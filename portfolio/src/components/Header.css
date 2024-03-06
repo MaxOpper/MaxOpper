@@ -1,16 +1,18 @@
 .header {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--background-color); /* Use the CSS variable for the background */
+  color: var(--text-color); /* Use the CSS variable for the text color */
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .branding {
   font-family: 'Arial', sans-serif;
   text-align: center;
+  
 }
 
 .name {
@@ -18,6 +20,7 @@
   margin: 0;
   text-align: center;
   width: 100%;
+  
 }
 
 nav ul {
@@ -30,31 +33,33 @@ nav ul {
 
 nav ul li {
   margin: 0 1rem;
+  font-size: 1.5rem;
 }
 
 nav ul li button {
   background: none;
   border: none;
-  color: inherit;
+  color: inherit; /* Keep the text color inherited from parent which uses variable */
   font-family: inherit;
   font-size: inherit;
   padding: 0;
   cursor: pointer;
   transition: color 0.3s ease;
-  font-size: 1.5rem;
 }
 
 nav ul li button:hover {
-  color: #ff6699;
+  color: var(--primary-color); /* Use the CSS variable for hover color */
 }
-
-
 
 /* Media Query for Small Screens */
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
     align-items: center;
+  }
+
+  nav ul {
+    justify-content: center; /* Center the nav items when stacked */
   }
 
   nav ul li {
