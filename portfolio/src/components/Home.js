@@ -58,7 +58,7 @@ const Home = () => {
           <div className="container">
             <h2>About Me</h2>
             <p className="about-text">
-            I am a recent computer science graduate with a minor in statistics, having completed my degree in December. My academic journey has fueled a deep-seated passion for data science and software development. As I transition from academia to the professional world, my objective is to apply the technical skills and knowledge I've garnered to contribute meaningfully to innovative software projects. With a solid educational foundation in computer science and statistics, I am actively seeking internship or entry-level developer opportunities where I can apply my skills, continue learning, and make a significant impact in the field of software development.
+            I am a recent computer science graduate with a minor in statistics. My academic journey has fueled a deep-seated passion for data science and software development. As I transition from academia to the professional world, my objective is to apply the technical skills and knowledge I've garnered to contribute meaningfully to innovative software projects. With a solid educational foundation in computer science and statistics, I am actively seeking internship or entry-level developer opportunities where I can apply my skills, continue learning, and make a significant impact in the field of software development.
             </p>
           </div>
         </div>
