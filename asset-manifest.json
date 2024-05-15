@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MaxOpper/static/css/main.c618561c.css",
-    "main.js": "/MaxOpper/static/js/main.5a8a30c8.js",
+    "main.js": "/MaxOpper/static/js/main.8e6815a1.js",
     "static/js/787.1ed0c42c.chunk.js": "/MaxOpper/static/js/787.1ed0c42c.chunk.js",
     "static/media/instagram.png": "/MaxOpper/static/media/instagram.b04a414745cff566c72f.png",
     "static/media/profile3.jpeg": "/MaxOpper/static/media/profile3.c2de00cb9b8087785a9d.jpeg",
@@ -30,11 +30,11 @@
     "static/media/lin.png": "/MaxOpper/static/media/lin.bb933d6809d6410387a0.png",
     "index.html": "/MaxOpper/index.html",
     "main.c618561c.css.map": "/MaxOpper/static/css/main.c618561c.css.map",
-    "main.5a8a30c8.js.map": "/MaxOpper/static/js/main.5a8a30c8.js.map",
+    "main.8e6815a1.js.map": "/MaxOpper/static/js/main.8e6815a1.js.map",
     "787.1ed0c42c.chunk.js.map": "/MaxOpper/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c618561c.css",
-    "static/js/main.5a8a30c8.js"
+    "static/js/main.8e6815a1.js"
   ]
 }
